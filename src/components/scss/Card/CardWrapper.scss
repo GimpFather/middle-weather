@@ -1,0 +1,14 @@
+@import '../../../variables/theme.scss';
+
+.card-wrapper {
+    margin: 2rem; 
+    width: 40%; 
+    text-align: center; 
+    color: $dark-blue; 
+    background-color: $light-grey; 
+    opacity: 0.8;
+    border-radius: 0.75rem; 
+    border-width: 2px; 
+    border-color: $dark-blue; 
+    box-shadow: 0 25px 50px -12px $dark-blue-shadow-strong; 
+}

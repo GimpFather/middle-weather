@@ -1,0 +1,10 @@
+.card-block {
+    padding: 0.75rem; 
+    text-align: center; 
+    height: auto; 
+    background-color: $dark-blue; 
+    color: $white; 
+    opacity: 1; 
+    border-radius: 0.75rem; 
+    box-shadow: 0 10px 15px -3px $dark-blue-shadow-one, 0 4px 6px -2px $dark-blue-shadow-two; 
+}
