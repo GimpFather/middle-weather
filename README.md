@@ -7,8 +7,14 @@ I just wanna do, a site that will show you the weather and some cool art, from y
 For now - I can only show you weather stats, but believe me - I'm working on the next step!
 This is a project that I left, but it's time to refresh it!
 
+## Current state
+
+Omg, I'm probably gonna kill myself, there is so much to do.
+
 ## My goals!
 
+- [ ] Tailwind clean up.
+- [ ] Logic remake.
 - [ ] Make an app that will show weather stats for any city that the user will type.
 - [ ] The background is changing with the actual weather in the city that you are currently checking.
 - [ ] Users can switch between themes, like Lord of the Rings or Critical Role. Changing theme, changes backgrounds.
