@@ -1,3 +1,28 @@
-.red {
-    background-color: red;
+@import '../../variables/theme.scss';
+
+.footer {
+    &__wrapper {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem; 
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        background-color: $dark-blue; 
+        width: 100vw; 
+        height: auto; 
+        box-shadow: 0 10px 15px -3px $dark-blue-shadow-one, 0 4px 6px -2px $dark-blue-shadow-two; 
+    }
+
+    &__text {
+        padding: 1rem 1rem 1rem;
+        text-align: center; 
+        color: $white; 
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1rem; 
+
+        &-paragraph {
+            margin: 5px 0px;
+        }
+    }
 }
