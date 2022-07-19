@@ -11,6 +11,9 @@
 # production
 /build
 
+# secret api
+/src/variables/api.js
+
 # misc
 .DS_Store
 .env.local
