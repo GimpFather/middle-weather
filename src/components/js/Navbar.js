@@ -2,8 +2,6 @@ import { GiRing } from "react-icons/gi";
 import { VscCode } from "react-icons/vsc";
 import { WiCloudy } from "react-icons/wi";
 import { FaCriticalRole } from "react-icons/fa";
-import { FaDiceD20 } from "react-icons/fa";
-import { getSuggestedQuery } from "@testing-library/react";
 
 const Navbar = () => {
 	return (
