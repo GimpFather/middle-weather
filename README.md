@@ -1,11 +1,9 @@
-## Main informations
+## <a href="http://middleweather.pl">Middleweather - Check your weather!</a>
 
-In the project# <a href="http://middleweather.pl">Middleweather - Check your weather!</a>
-
-The main goal is to build simple the application using React!\
+The main goal is to rebuild simple the application using React!\
 I just wanna do, a site that will show you the weather and some cool art, from your favorite game/show.\
 For now - I can only show you weather stats, but believe me - I'm working on the next step!
-This is a project that I left, but it's time to refresh it!
+This is a project that I left, but it's time to refresh it! There is a lot of repetitive code, static stuff and bad approaches - let's fix it!
 
 ## Current state
 
