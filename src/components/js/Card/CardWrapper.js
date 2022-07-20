@@ -1,5 +1,5 @@
 import { useState } from "react";
-import API from "../../variables/api";
+import API from "../../../variables/api";
 import CardBlock from "./CardBlock";
 
 const CardWrapper = () => {
@@ -19,16 +19,16 @@ const CardWrapper = () => {
 	};
 	return (
 		<div className="card-wrapper">
-			<div className="m-4 flex flex-col justify-center">
+			<div className="card-wrapper__column">
 				{typeof weather.main === "undefined" ? (
-					<div className="opacity-100 font-Libre">
+					<div>
 						<input
 							onChange={(e) => setQuery(e.target.value)}
 							value={query}
 							onKeyPress={search}
 							type="text"
 							placeholder="Type your city..."
-							className="card-block text-2xl"
+							className="card-block card-block__input-text"
 						></input>
 						<CardBlock
 							text="This site will check the weather, in a city that you will type! It's
@@ -54,11 +54,11 @@ const CardWrapper = () => {
 					""
 				)}
 				{typeof weather.main != "undefined" ? (
-					<div className="grid justify-items-center">
+					<div className="card-block__grid-wrapper">
 						<p className="card-block text-3xl">
 							{weather.name}, {weather.sys.country}
 						</p>
-						<div className="flex flex-row justify-items-stretch">
+						<div className="card-block__grid-two">
 							<p className="card-block">
 								Today is very "{weather.weather[0].main}y" day.
 							</p>

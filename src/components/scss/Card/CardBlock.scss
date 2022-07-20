@@ -1,10 +1,43 @@
 .card-block {
+    margin-top: 1rem;
+    margin-inline: 1rem;
     padding: 0.75rem; 
     text-align: center; 
     height: auto; 
     background-color: $dark-blue; 
     color: $white; 
     opacity: 1; 
+    border: 0.25rem $dark-blue;
     border-radius: 0.75rem; 
     box-shadow: 0 10px 15px -3px $dark-blue-shadow-one, 0 4px 6px -2px $dark-blue-shadow-two; 
+
+    &__input-text {
+        font-size: 1.5rem;
+        line-height: 2rem; 
+        &::placeholder {
+            font-family: "Libre Baskerville";
+        }
+        textarea, input, button, select { font-family: inherit; font-size: inherit; }
+    }
+
+    &__column {
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__grid-wrapper {
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center
+    }
+
+    &__grid-two {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }

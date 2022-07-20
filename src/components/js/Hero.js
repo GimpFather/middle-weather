@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IoChevronBackCircleOutline } from "react-icons/io5";
 import API from "../../variables/api";
 
-import CardWrapper from "../Card/CardWrapper";
+import CardWrapper from "../js/Card/CardWrapper";
 
 const Hero = () => {
 	const [query, setQuery] = useState("");
@@ -25,7 +25,7 @@ const Hero = () => {
 		//     ? 'hero-background_cr--night__sun'
 		//     : 'hero-background_cr--night__snow')
 		// : 'hero-background_cr--theme'}>
-		<div className="hero-background_cr--night__snow">
+		<div className="hero-background">
 			<CardWrapper></CardWrapper>
 		</div>
 	);

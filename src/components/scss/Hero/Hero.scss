@@ -1,1 +1,17 @@
 @import '../../../variables/theme.scss';
+
+.hero {
+    &-background {
+        padding: 0rem 0rem;
+        display: flex; 
+        justify-content: center;
+        flex-direction: column; 
+        width: 100vw; 
+        height: 100vh; 
+        background-image: url('../../../images/background--night__snow.jpeg');
+        background-attachment: fixed; 
+        background-size: cover; 
+        color: $white; 
+        box-shadow: 0 10px 15px -3px $dark-blue-shadow-one, 0 4px 6px -2px $dark-blue-shadow-two; 
+    }
+}
