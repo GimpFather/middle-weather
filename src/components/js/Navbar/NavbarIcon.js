@@ -1,9 +1,11 @@
 const NavbarIcon = (props) => {
 	return (
-		<div className="navbar__icon">
-			{props.icon}
-			<span className="navbar__tooltip">{props.text}</span>
-		</div>
+		<a href={props.link}>
+			<div className="navbar__icon">
+				{props.icon}
+				<span className="navbar__tooltip">{props.text}</span>
+			</div>
+		</a>
 	);
 };
 export default NavbarIcon;

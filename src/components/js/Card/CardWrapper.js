@@ -2,6 +2,8 @@ import { useState } from "react";
 import API from "../../../variables/api";
 import CardBlock from "./CardBlock";
 
+import MAIN_DESC from "../../../variables/desc-data";
+
 const CardWrapper = () => {
 	const [query, setQuery] = useState("");
 	const [weather, setWeather] = useState({});
@@ -30,25 +32,9 @@ const CardWrapper = () => {
 							placeholder="Type your city..."
 							className="card-block card-block__input-text"
 						></input>
-						<CardBlock
-							text="This site will check the weather, in a city that you will type! It's
-				still in the development process, so there is a lot of things to do, but
-				just you wait!"
-						></CardBlock>
-						<CardBlock
-							text="The main goal is to build the application using React and
-								Tailwind! <br />I just wanna do, a site that will show you the
-								weather and some cool art, from your favorite game/show. For now
-								- I can only show you weather stats, but believe me - I'm
-								working on the next step!"
-						></CardBlock>
-						<CardBlock
-							text='The source code of this application is on my GitHub: <br />
-								<a className="underline" href="https://github.com/GimpFather">
-									https://github.com/GimpFather
-								</a>
-								<br />'
-						></CardBlock>
+						<CardBlock text={MAIN_DESC.sectionOne}></CardBlock>
+						<CardBlock text={MAIN_DESC.sectionTwo}></CardBlock>
+						<CardBlock text={MAIN_DESC.sectionThree}></CardBlock>
 					</div>
 				) : (
 					""
